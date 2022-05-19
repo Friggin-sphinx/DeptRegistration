@@ -1,0 +1,158 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+.title_main {
+  width: 50%;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: right;
+  transition: all 0.6s cubic-bezier(0.68,-0.55,0.265,1.55);
+  
+}
+
+
+#wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
+#wrapper .form-container{
+  width: 100%;
+  overflow: hidden;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+}
+.form_inner {
+  border: 10px;
+  padding: 40px;
+  border-color: #ffffff;
+  background: -webkit-linear-gradient(left, #ffffff, #ffffff);
+  border-radius: 20px;
+}
+body {
+  margin: 1.5em;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+ 
+
+}
+
+
+form.submit {
+  background-color: #ccc;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius:6px;
+  color: #fff;
+  font-family: 'Poppins';
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border:none;
+}
+
+form.submit {
+  flex: 1 1 auto;
+  margin: 4px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  height: 50px;
+  width: 20%;
+  border-radius: 5px;
+ /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+#submit:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+#submit {
+  background-image: linear-gradient(to right, #e77dc9 0%, #779ddf 51%, #fbc2eb 100%);
+}
+
+form .field input:focus::placeholder{
+  color: #b3b3b3;
+}
+
+
+body {
+  text-align: center;
+}
+
+form {
+  display: inline-block;
+}
+
+#register {
+  width: 400px;
+}
+
+
+
+input {
+  padding: 10px;
+  border-radius: 9px;
+  border: 2px solid lightgrey;
+  font-size: 17px;
+  font-weight: 400;
+  width: 300px;
+  width: 20rem;
+  height: 7vh;
+}
+
+label {
+  color: #000000;
+  font-weight: bold;
+  width: 130px;
+  float: center;
+}
+
+label:after {
+  content: ": ";
+}
+
+#button {
+  padding:10px;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: #B4886B;
+  border-radius: 1px;
+  font: inherit;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+/*# sourceMappingURL=index.css.map */
+

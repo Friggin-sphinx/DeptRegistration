@@ -1,0 +1,65 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    margin: 1.5em;
+    
+    background: #353333;
+    background-image: url("/cool-background\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+
+#register {
+    width: 400px;
+}
+
+input {
+    padding: 3px;
+    border-radius: 40em;
+    font-size: 14px;
+    font-weight: 400;
+    width: 300px;
+}
+
+label {
+    color: #ffffff;
+    font-weight: bold;
+    width: 130px;
+    float: center;
+
+}
+
+label:after {
+    content: ": "
+}
+
+#button {
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #B4886B;
+    border-radius: 5px;
+    font: inherit;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
